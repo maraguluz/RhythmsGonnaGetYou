@@ -7,5 +7,7 @@ namespace RhythmsGonnaGetYou
         public string Title { get; set; }
         public int Duration { get; set; }
         public int AlbumId { get; set; }
+        public Album Album { get; set; }
+        //this is a property that gives you back the Album object for this song 
     }
 }
